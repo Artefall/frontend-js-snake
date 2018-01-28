@@ -69,6 +69,3 @@
 # Запуск и настройка проекта
 
 Информация по настройке проекта находится в файле [HELP.md](https://github.com/fabrikaodua/frontend-js-snake/blob/master/HELP.md)
-
-
-
