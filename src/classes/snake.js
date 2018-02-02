@@ -6,11 +6,13 @@ class Snake {
 		this.direction = args.direction
 	}
 	eat(args) {
-
+		this.length = this.lenght.push(new SnakePart());
 	}
 
-	move(args) {
+	move(steps) {
 
 	}
 
 }
+
+module.exports = Snake;

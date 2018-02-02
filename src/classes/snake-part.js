@@ -1,11 +1,7 @@
 class SnakePart extends BaseElement {
-	constructor() {
-		super(x, y, isVisiable){
-			this.x = x 0;
-			this.y = y || 0;
-			this.isVisiable = isVisiable || true;
-		}
-
+	constructor(options) {
+		super(options)
+		options = options || {}
 	}
 	direction(deWay) {
 		this.direct = deWay.direct || 'right';
